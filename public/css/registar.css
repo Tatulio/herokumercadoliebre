@@ -1,0 +1,95 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   
+.list-checkbox {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.list-checkbox section {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.list-checkbox section label {
+    padding: 10px 0;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.list-checkbox section label input {
+    margin-left: 2vh;
+}
+
+.list-checkbox section label span {
+    margin-right: 60%;
+    text-align: left;
+    width: 9vh;
+}
+
+.boton-archivos input {
+    margin: 10px 0;
+}
+
+fieldset {
+    border: 0px
+}
+ 
+input {
+    border: 0px;
+}
+
+legend{
+    font-weight: bold;
+}
+.todos-formulrios {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-formulario {
+    width: 306px;
+    margin: 15px 0;
+    height: 5vh;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.radio{
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.radio legend {
+   padding-bottom: 10px;
+}
+
+
+.boton-formulario {
+    margin: 15px 0;
+    height: 5vh;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #1259c3;
+    border: none;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.boton-formulario:hover {
+    background-color: #0022AA;
+}

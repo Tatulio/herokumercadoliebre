@@ -1,0 +1,380 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    background:  #ebebeb;;
+}
+
+main {
+    text-align: center;
+}
+
+.main-header {
+    background-color: #eac926;
+    padding: 20px;
+}
+
+.main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 45vw;
+}
+
+.formsearch {
+    position: relative;
+    display:flex;  
+}
+
+.formsearch input {
+    border: none;
+    display: block;
+    width: 100%;
+    max-width: 192px;
+    padding: 7px 35px 7px 7px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 1em;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+    width: 100vw;
+    margin-top: 15px;
+}
+
+.iconolupa {
+    position: absolute;
+    top: 12px;
+    right: 2px;
+    background-color: #ffffff;
+    padding: 1px;
+    text-align: center;
+    font-size: 15px;
+    width: 23px; 
+    height: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+}
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.burger-menu {
+    margin: auto;
+    text-align: center;
+    background-color: #1259c3;
+    font-size: 30px;
+    width: 66px; 
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.tresbarras{
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cajadecajas {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+}
+
+.caja-producto {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-shadow: none;
+}
+
+.detallecompleto {
+    text-align: left;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+}
+
+.detallecompleto p {
+    display: inline-flex;
+    margin: 12px 10px 12px 0;
+
+}
+
+.detallecompleto h3 {
+    margin-bottom: 10px
+}
+
+.iconocamion2 { 
+    font-size: 1rem;
+    padding: 5px;
+    margin: 1px 7px;
+    display: block;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 1px;
+    top: -16px;
+    color: #39b54a;
+    transition: all 0.5s ease;
+}
+
+.iconocamion2:hover {
+    transform: rotate(-90deg);
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripcion {
+    color: #666;
+    font-size: 16px;
+}
+
+.titulares {
+    color: #666;
+    font-size: 24px;
+    margin: 10px 0;
+}
+    
+footer{
+    width: 100%;
+    color: #666;
+    background: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%; 
+    padding-top: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.list-footer {
+    list-style: none;
+}
+
+.copyright {
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.icono-footer {
+    color: blue;
+    margin: 10px;
+    font-size: 2em;
+    transition: all 0.5s ease;
+}
+
+.texto-footer {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.descripcion{
+     display: none;
+}
+
+@media (min-width: 768px) {  /*TABLET*/
+  
+    .main-header-top-bar{
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        max-width: 250px;
+    }
+    
+    .formsearch {
+        justify-content: center;
+        align-self: center;
+        max-width: 226.5px;        
+    }
+
+    .copy-header {
+        margin-right: 0;
+        width: 250px;
+        max-width: none;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    .main-navbar {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    .descripcion {
+        display: block;
+    }
+/*
+    .descripcion:hover {
+        border: 5px red solid;
+        display: block;
+        color: #666;
+        font-size: 16px;
+    }
+
+    .caja-producto h3:hover {
+        display: block;
+    }
+*/
+     .burger-menu {
+        display: none;
+    }
+
+    .caja-producto {
+        transition: all 0.5s ease;
+    }
+
+    .caja-producto:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .cajadecajas {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .caja-producto {
+        max-width: 46%;
+    }
+
+    .titulares{
+        text-align: left;
+        padding-left: 5%;
+    }
+    
+}
+
+@media (min-width: 1200px) {  /*ESCRITORIO*/
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar {
+        align-items: center;
+    }
+
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+    .main-navbar {
+        margin-top: 30px;
+    }
+    .copy-header {
+       width: 450px;
+        max-width: none;
+        font-weight: 400;
+        margin: 0;
+        font-size: 14px;
+    }
+    .logo {
+        width: 250px;
+    }
+    .caja-producto {
+        max-width: 23%;
+    }
+
+    .formsearch input {
+        max-width: 226.5px;        
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;        
+    }
+
+    .foot-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .icono-footer:hover {
+        color: #0022AA;
+    }
+
+}
+
