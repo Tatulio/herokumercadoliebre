@@ -158,11 +158,11 @@ img {
     right: 1px;
     top: -16px;
     color: #39b54a;
-    transition: all 0.5s ease;
+    transition: all 0.5s ;
 }
 
 .iconocamion2:hover {
-    transform: rotate(-90deg);
+    transform: rotate(360deg);
   }
 
 a {
